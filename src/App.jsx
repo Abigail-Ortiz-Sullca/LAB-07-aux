@@ -1,12 +1,19 @@
 import './App.css';
-import { RandomComponent } from './components/RandomComponent';
+import { Button } from './components/Button'
+import { CompWithProps } from './components/CompWithProps'
 
   function App() {
-    return (
+
+  const buttonText = "Count: ";
+
+  return (
     <>
-        <RandomComponent/> 
+      <h1>HOLA DESDE VITE</h1>
+      <Button text={buttonText}/>
+      <CompWithProps/>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
+
