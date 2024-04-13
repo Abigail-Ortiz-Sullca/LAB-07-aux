@@ -11,7 +11,7 @@ export const Button = props => {
 
   return (
     <button onClick={ handlerButton }>
-      { text } { count }
+      {text}{ count }
     </button>
   );
 }

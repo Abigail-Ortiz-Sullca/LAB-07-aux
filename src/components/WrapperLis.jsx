@@ -1,5 +1,6 @@
 export const WapperList = props => {
-  const { children } = props;
+  
+  const { children } = props
 
   return (
     <div>
@@ -8,7 +9,6 @@ export const WapperList = props => {
         { children }
       </div>
     </div>
-  );
+  )
 }
-
   

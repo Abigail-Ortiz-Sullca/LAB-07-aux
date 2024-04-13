@@ -1,15 +1,14 @@
 import './App.css';
 import { List } from './components/List';
-import { WrapperList } from './components/WrapperList';
+import { WapperList} from './components/WrapperLis';
 
 function App() {
   return (
     <>
-      <WrapperList>
+      <WapperList>
         <List/>
-      </WrapperList>
+      </WapperList>
     </>
-  );
+  )
 }
-
-export default App;
+export default App
